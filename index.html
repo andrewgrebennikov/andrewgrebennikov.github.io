@@ -318,12 +318,32 @@
             </section>
         </main>
         <footer class="footer">
+            <div class="map" id="map"></div>
             <div class="wrapper">
-                footer
+                <div class="contacts">
+                    <div class="contacts__title">Мы находимся</div>
+                    <address class="contacts__address">
+                        <p class="contacts__text">г.Нальчик ул.Кирова 1 Д ТРК "Галерея"</p>
+                    </address>
+                </div>
             </div>
         </footer>
         <link rel="stylesheet" href="css/main.css">
         <script src="js/libs.js"></script>
         <script src="js/common.js"></script>
+        <script>
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 17,
+                    center: {lat: 43.476326, lng: 43.573696},
+                    mapTypeControl: true,
+                    mapTypeControlOptions: {
+                        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+                        mapTypeIds: ['roadmap', 'terrain']
+                    }
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqqmIjnb7ifpWeqzCpXvkI5yCwebFkoCs&callback=initMap"></script>
     </body>
 </html>
