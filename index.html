@@ -38,12 +38,11 @@
                     <nav class="navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Прейскурант</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Акции</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Мероприятия</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Секции</a></li>
                             <li class="navigation__item"><a href="#" class="navigation__link">День рождения</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Правила посещения</a></li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Мероприятия</a></li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Прейскурант</a></li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Правила</a></li>
+                            <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -140,70 +139,9 @@
                     </form>
                 </div>
             </section>
-            <section class="price">
-                <div class="wrapper">
-                    <div class="tabs">
-                        <ul class="tabs__controls">
-                            <li class="tabs__controls-item active" data-class="first">
-                                <a href="#" class="tabs__controls-link">Детская игровая площадка</a>
-                            </li>
-                            <li class="tabs__controls-item" data-class="second">
-                                <a href="#" class="tabs__controls-link">Батутный парк</a>
-                            </li>
-                            <li class="tabs__controls-item" data-class="third">
-                                <a href="#" class="tabs__controls-link">День рождения</a>
-                            </li>
-                            <li class="tabs__controls-item" data-class="fourth">
-                                <a href="#" class="tabs__controls-link">Игровые аппараты</a>
-                            </li>
-                            <li class="tabs__controls-item" data-class="fifth">
-                                <a href="#" class="tabs__controls-link">Дополнительные услуги</a>
-                            </li>
-                        </ul>
-                        <ul class="tabs__list">
-                            <li class="tabs__item tabs__item_first active">
-                                <div class="table">
-                                    <div class="table__header">
-                                        <div class="table__header-title"></div>
-                                        <div class="table__header-title">будни до 18:00</div>
-                                        <div class="table__header-title">будни после 18:00</div>
-                                        <div class="table__header-title">выходной день</div>
-                                    </div>
-                                    <div class="table__body">
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
-                                        </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
-                                        </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
-                                        </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="tabs__item tabs__item_second">2</li>
-                            <li class="tabs__item tabs__item_third">3</li>
-                            <li class="tabs__item tabs__item_fourth">4</li>
-                            <li class="tabs__item tabs__item_fifth">5</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
             <section class="events">
                 <div class="wrapper">
-                    <h4>Ближайшие мероприятия</h4>
+                    <h4 class="events__title">Ближайшие мероприятия</h4>
                     <ul class="events__list">
                         <li class="events__item event">
                             <div class="event__header">
@@ -276,35 +214,104 @@
                     </ul>
                 </div>
             </section>
+            <section class="price">
+                <div class="wrapper">
+                    <div class="tabs">
+                        <ul class="tabs__controls">
+                            <li class="tabs__controls-item active" data-class="first">
+                                <a href="#" class="tabs__controls-link">Детская игровая площадка</a>
+                            </li>
+                            <li class="tabs__controls-item" data-class="second">
+                                <a href="#" class="tabs__controls-link">Батутный парк</a>
+                            </li>
+                            <li class="tabs__controls-item" data-class="third">
+                                <a href="#" class="tabs__controls-link">День рождения</a>
+                            </li>
+                            <li class="tabs__controls-item" data-class="fourth">
+                                <a href="#" class="tabs__controls-link">Игровые аппараты</a>
+                            </li>
+                            <li class="tabs__controls-item" data-class="fifth">
+                                <a href="#" class="tabs__controls-link">Дополнительные услуги</a>
+                            </li>
+                        </ul>
+                        <ul class="tabs__list">
+                            <li class="tabs__item tabs__item_first active">
+                                <div class="table">
+                                    <div class="table__header">
+                                        <div class="table__header-title"></div>
+                                        <div class="table__header-title">будни до 18:00</div>
+                                        <div class="table__header-title">будни после 18:00</div>
+                                        <div class="table__header-title">выходной день</div>
+                                    </div>
+                                    <div class="table__body">
+                                        <div class="table__body-row">
+                                            <div class="table__body-cell">1</div>
+                                            <div class="table__body-cell">2</div>
+                                            <div class="table__body-cell">3</div>
+                                        </div>
+                                        <div class="table__body-row">
+                                            <div class="table__body-cell">1</div>
+                                            <div class="table__body-cell">2</div>
+                                            <div class="table__body-cell">3</div>
+                                        </div>
+                                        <div class="table__body-row">
+                                            <div class="table__body-cell">1</div>
+                                            <div class="table__body-cell">2</div>
+                                            <div class="table__body-cell">3</div>
+                                        </div>
+                                        <div class="table__body-row">
+                                            <div class="table__body-cell">1</div>
+                                            <div class="table__body-cell">2</div>
+                                            <div class="table__body-cell">3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tabs__item tabs__item_second">2</li>
+                            <li class="tabs__item tabs__item_third">3</li>
+                            <li class="tabs__item tabs__item_fourth">4</li>
+                            <li class="tabs__item tabs__item_fifth">5</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
             <section class="docs">
                 <div class="wrapper">
                     <ul class="docs__list">
                         <li class="docs__item">
                             <img class="docs__img" src="img/docs/doc-1.jpg" alt="">
                             <div class="docs__inner">
-                                <div class="docs__title">Анкета</div>
-                                <a class="docs__link" href=""><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                                <div class="docs__title">
+                                    <a class="docs__title-link" href="docs/anketa.doc">Анкета</a>
+                                </div>
+                                <a class="docs__link" href="docs/anketa.doc"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                             </div>
                         </li>
                         <li class="docs__item">
                             <img class="docs__img" src="img/docs/doc-2.jpg" alt="">
                             <div class="docs__inner">
-                                <div class="docs__title">Разрешение</div>
-                                <a class="docs__link" href=""><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                                <div class="docs__title">
+                                    <a class="docs__title-link" href="docs/permission.docx">Разрешение</a>
+                                </div>
+                                <a class="docs__link" href="docs/permission.docx"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                             </div>
                         </li>
                         <li class="docs__item">
                             <img class="docs__img" src="img/docs/doc-3.jpg" alt="">
                             <div class="docs__inner">
-                                <div class="docs__title">Правила площадок</div>
-                                <a class="docs__link" href=""><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                                <div class="docs__title">
+                                    <a class="docs__title-link" href="docs/permission.docx">Правила<br> детской площадки</a>
+                                </div>
+                                <a class="docs__link" href="docs/permission.docx"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                             </div>
                         </li>
                         <li class="docs__item">
                             <img class="docs__img" src="img/docs/doc-4.jpg" alt="">
                             <div class="docs__inner">
-                                <div class="docs__title">Правила</div>
-                                <a class="docs__link" href=""><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                                <div class="docs__title">
+                                    <a class="docs__title-link" href="docs/pravila_src.doc">Правила<br> батутного парка</a>
+                                </div>
+                                <a class="docs__link" href="docs/pravila_src.doc"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                             </div>
                         </li>
                     </ul>
@@ -313,12 +320,40 @@
         </main>
         <footer class="footer">
             <div class="map" id="map"></div>
-            <div class="wrapper">
-                <div class="contacts">
-                    <div class="contacts__title">Мы находимся</div>
-                    <address class="contacts__address">
-                        <p class="contacts__text">г.Нальчик ул.Кирова 1 Д ТРК "Галерея"</p>
-                    </address>
+            <div class="contacts">
+                <div class="wrapper">
+                    <div class="contacts__inner">
+                        <div class="contacts__title">Мы находимся</div>
+                        <address class="contacts__address">
+                            <p class="contacts__text">г.Нальчик ул.Кирова 1 Д ТРК "Галерея"</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="/" class="logo__link">
+                            <img src="./img/logo.png" alt="Муравейник" class="logo__img" width="220" height="129">
+                        </a>
+                    </div>
+                    <h1 class="title">Муравейник</h1>
+                    <div class="privacy">
+                        <p class="privacy__text">© 2017 Все права защищены.</p>
+                    </div>
+                    <div class="social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link_instagram">Instagram</a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link_vk">Vkontakte</a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
