@@ -16,5 +16,16 @@ $(document).ready(function () {
             .addClass('active')
             .siblings()
             .removeClass('active')
-    })
+    });
+
+    $('.header').sticky({
+        topSpacing: 0,
+        zIndex: 100,
+        className: 'header-sticky'
+    });
+
+    $('.header').on('sticky-end', function() {
+        $('.sticky-wrapper').removeAttr('style');
+    });
+
 });
