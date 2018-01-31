@@ -246,13 +246,13 @@
                     <h4 class="price__title">Прейскурант</h4>
                     <div class="tabs">
                         <ul class="tabs__controls">
-                            <li class="tabs__controls-item active" data-class="first">
+                            <li class="tabs__controls-item" data-class="first">
                                 <a href="#" class="tabs__controls-link">Батутный парк</a>
                             </li>
                             <li class="tabs__controls-item" data-class="second">
                                 <a href="#" class="tabs__controls-link">Детская игровая площадка</a>
                             </li>
-                            <li class="tabs__controls-item" data-class="third">
+                            <li class="tabs__controls-item active" data-class="third">
                                 <a href="#" class="tabs__controls-link">День рождения</a>
                             </li>
                             <li class="tabs__controls-item" data-class="fourth">
@@ -263,34 +263,83 @@
                             </li>
                         </ul>
                         <ul class="tabs__list">
-                            <li class="tabs__item tabs__item_first active">
+                            <li class="tabs__item tabs__item_first">
                                 <div class="table">
-                                    <div class="table__header">
-                                        <div class="table__header-title"></div>
-                                        <div class="table__header-title">будни до 18:00</div>
-                                        <div class="table__header-title">будни после 18:00</div>
-                                        <div class="table__header-title">выходной день</div>
-                                    </div>
                                     <div class="table__body">
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="col-2"></div>
+                                            <div class="table__title col-3" style="background-color: #ffca01">будни до 18:00</div>
+                                            <div class="table__title col-4" style="background-color: #ffdc01">будни после 18:00</div>
+                                            <div class="table__title col-3" style="background-color: #ffe60a">выходной день</div>
                                         </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-2" style="background-color: #ffca01">30 минут</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">150 руб</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">200 руб</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">200 руб</div>
                                         </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-2" style="background-color: #ffca01">1 час</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">200 руб</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">300 руб</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">350 руб</div>
                                         </div>
-                                        <div class="table__body-row">
-                                            <div class="table__body-cell">1</div>
-                                            <div class="table__body-cell">2</div>
-                                            <div class="table__body-cell">3</div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-2" style="background-color: #ffca01">2 час</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">320 руб</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">480 руб</div>
+                                            <div class="table__title col-3" style="background-color: #ffffff">650 руб</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-cell col-12" style="background-color: #fff200">АКЦИИ*<br>(при заказе услуг от 1 часа в будние дни)</div>
+                                <div class="table">
+                                    <div class="table__body">
+                                        <div class="table__row row no-gutters justify-content-between">
+                                            <div class="table__title col-5" style="background-color: #ffffff">
+                                                <h3 class="table__title-title">50% скидка</h3>
+                                                <p>В День рождения</p>
+                                            </div>
+                                            <div class="table__title col-5" style="background-color: #ffffff">
+                                                <h3 class="table__title-title">20% скидка</h3>
+                                                <p>Многодентным семьям и детям  с ограниченными возможностями</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footnote">*при предъявлении соответствующего документа</div>
+                                </div>
+                                <div class="title-cell col-12" style="background-color: #fff200">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ<br>(только будни)</div>
+                                <div class="table">
+                                    <div class="table__body">
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-4" style="background-color: #ff9900">ТАРИФЫ</div>
+                                            <div class="table__title col-4" style="background-color: #ffdc01">ОПИСАНИЕ</div>
+                                            <div class="col-4" style="background-color: #ffe60a">
+                                                <div class="row no-gutters">
+                                                    <div class="table__title col-12" style="background-color: #ff9900">СТОИМОСТЬ за 1 гостя</div>
+                                                </div>
+                                                <div class="row no-gutters">
+                                                    <div class="table__title col-6" style="background-color: #ff9900">С 10:00 ДО 16:00</div>
+                                                    <div class="table__title col-6" style="background-color: #ff9900">С 16:00 ДО 22:00</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-4" style="background-color: #ffffff">ВЕСЁЛЫЕ СТАРТЫ<br>(1 час спортивно-развлекательной программы с элементами обучения трюкам и прыжкам)</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">групповые посещения от 10 человек для школ и детских садов</div>
+                                            <div class="table__title col-2" style="background-color: #ffffff">160 руб</div>
+                                            <div class="table__title col-2" style="background-color: #ffffff">270 руб</div>
+                                        </div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-4" style="background-color: #ffffff">КОРПОРАТИВНЫЙ</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">групповые посещения от 10 человек (1 час посещения батутного парка)</div>
+                                            <div class="table__title col-2" style="background-color: #ffffff">170 руб</div>
+                                            <div class="table__title col-2" style="background-color: #ffffff">270 руб</div>
+                                        </div>
+                                        <div class="table__row row no-gutters">
+                                            <div class="table__title col-4" style="background-color: #ffffff">БОДРОЕ УТРО</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">посещение батутного парка в утренние часы с 10.00-12.00 (2 часа)</div>
+                                            <div class="table__title col-4" style="background-color: #ffffff">300 руб</div>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +374,181 @@
                                     <div class="footnote">*при предъявлении соответствующего документа</div>
                                 </div>
                             </li>
-                            <li class="tabs__item tabs__item_third">3</li>
+                            <li class="tabs__item tabs__item_third active">
+                                <div class="tariff">
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ef8418">пакет <strong>ЛАЙТ</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Аренда банкетной комнаты</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">3 часа</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Праздничная сервировка стола</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">На 6 персон</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Оформление воздушными шарами</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">10 шт.</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Детская игровая площадка</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Именинник + 5 гостей</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ffca01">В подарок</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>1 подарочный сертификат</strong> на бесплатное посещение</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>500 очков</strong> для игр на аппаратах и автодроме</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Воздушный шар</strong> каждому гостю</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Фирменные приглашения</strong> для гостей</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #fff200">Стоимость</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Будни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>3000р</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Выходные/праздничные дни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>3500р</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="footnote">Стоимость дополнительного гостя 500р</div>
+                                        <div class="footnote">Стоимость дополнительного часа аренды 500р.</div>
+                                    </div>
+                                </div>
+                                <div class="tariff">
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ef8418">пакет <strong>СУПЕР+</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Аренда банкетной комнаты</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">3 часа</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Праздничная сервировка стола</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">На 6 персон</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Оформление воздушными шарами</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">10 шт.</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Детская игровая площадка</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Именинник + 5 гостей</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>Шоу-программа</strong></div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">на выбор</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ffca01">В подарок</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>3 подарочных сертификата</strong> на бесплатное посещение</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>1500 очков</strong> для игр на аппаратах и автодроме</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Воздушный шар</strong> каждому гостю</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Фирменные приглашения</strong> для гостей</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #fff200">Стоимость</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Будни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>8000р</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Выходные/праздничные дни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>8500р</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="footnote">Стоимость дополнительного гостя 500р</div>
+                                        <div class="footnote">Стоимость дополнительного часа аренды 500р.</div>
+                                    </div>
+                                </div>
+                                <div class="tariff">
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ef8418">пакет <strong>СУПЕР</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Аренда банкетной комнаты</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">3 часа</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Праздничная сервировка стола</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">На 6 персон</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Оформление воздушными шарами</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">10 шт.</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Детская игровая площадка</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Именинник + 5 гостей</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>Анимационная программа </strong></div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff">На выбор 1 герой, 1 час</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #ffca01">В подарок</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>2 подарочных сертификата</strong> на бесплатное посещение</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>1000 очков</strong> для игр на аппаратах и автодроме</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Воздушный шар</strong> каждому гостю</div>
+                                                <div class="table__cell col-12" style="background-color: #ffffff"><strong>Фирменные приглашения</strong> для гостей</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table__body">
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__title col-12" style="background-color: #fff200">Стоимость</div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Будни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>5500р</strong></div>
+                                            </div>
+                                            <div class="table__row row no-gutters">
+                                                <div class="table__cell col-6" style="background-color: #ffffff">Выходные/праздничные дни</div>
+                                                <div class="table__cell col-6" style="background-color: #ffffff"><strong>6000р</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="footnote">Стоимость дополнительного гостя 500р</div>
+                                        <div class="footnote">Стоимость дополнительного часа аренды 500р.</div>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="tabs__item tabs__item_fourth">4</li>
                             <li class="tabs__item tabs__item_fifth">
                                 <div class="table">
@@ -340,7 +563,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="title-cell col-4" style="background-color: #f2d13b">Фотоуслуги</div>
+                                <div class="title-cell col-4" style="background-color: #ef8418">Фотоуслуги</div>
                                 <div class="table">
                                     <div class="table__body">
                                         <div class="table__row row no-gutters">
@@ -398,40 +621,28 @@
             <section class="docs">
                 <div class="wrapper">
                     <ul class="docs__list">
-                        <li class="docs__item">
-                            <img class="docs__img" src="img/docs/doc-1.jpg" alt="">
+                        <li class="docs__item docs__item_anketa">
                             <div class="docs__inner">
-                                <a class="docs__link" href="docs/anketa.doc"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                <div class="docs__title">
-                                    <a class="docs__title-link" href="docs/anketa.doc">Анкета</a>
-                                </div>
+                                <i class="fa fa-file-text docs__icon" aria-hidden="true"></i>
+                                <a class="docs__link" href="docs/anketa.doc">Анкета</a>
                             </div>
                         </li>
-                        <li class="docs__item">
-                            <img class="docs__img" src="img/docs/doc-2.jpg" alt="">
+                        <li class="docs__item docs__item_permission">
                             <div class="docs__inner">
-                                <a class="docs__link" href="docs/permission.docx"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                <div class="docs__title">
-                                    <a class="docs__title-link" href="docs/permission.docx">Разрешение</a>
-                                </div>
+                                <i class="fa fa-file-text docs__icon" aria-hidden="true"></i>
+                                <a class="docs__link" href="docs/permission.docx">Разрешение</a>
                             </div>
                         </li>
-                        <li class="docs__item">
-                            <img class="docs__img" src="img/docs/doc-3.jpg" alt="">
+                        <li class="docs__item docs__item_permission-det">
                             <div class="docs__inner">
-                                <a class="docs__link" href="docs/permission.docx"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                <div class="docs__title">
-                                    <a class="docs__title-link" href="docs/permission.docx">Правила<br> детской площадки</a>
-                                </div>
+                                <i class="fa fa-file-text docs__icon" aria-hidden="true"></i>
+                                <a class="docs__link" href="docs/permission.docx">Правила<br> детской площадки</a>
                             </div>
                         </li>
-                        <li class="docs__item">
-                            <img class="docs__img" src="img/docs/doc-4.jpg" alt="">
+                        <li class="docs__item docs__item_pravila">
                             <div class="docs__inner">
-                                <a class="docs__link" href="docs/pravila_src.doc"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                <div class="docs__title">
-                                    <a class="docs__title-link" href="docs/pravila_src.doc">Правила<br> батутного парка</a>
-                                </div>
+                                <i class="fa fa-file-text docs__icon" aria-hidden="true"></i>
+                                <a class="docs__link" href="docs/pravila_src.doc">Правила<br> батутного парка</a>
                             </div>
                         </li>
                     </ul>
@@ -474,8 +685,7 @@
             </div>
         </footer>
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/libs.js"></script>
-        <script src="js/common.js"></script>
+        <script src="js/scripts.js"></script>
         <script>
             function initMap() {
                 var myLatLng = {lat: 43.476326, lng: 43.573696};
